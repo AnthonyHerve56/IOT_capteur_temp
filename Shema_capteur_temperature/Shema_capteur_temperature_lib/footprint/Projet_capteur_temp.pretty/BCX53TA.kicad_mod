@@ -1,0 +1,234 @@
+(footprint "BCX53TA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT89_H=1.6mm_2021")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 -0.383 0)
+		(layer "F.SilkS")
+		(uuid "ac3aee10-c818-4185-bbab-e273629541f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BCX53TA"
+		(at 0 -0.383 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "53197d37-78dd-47c1-86a8-df338bb69c10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "382c19be-7ca5-42a2-ba6c-856c4d6a726e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ac69dea-8cc1-46ef-8603-8fd245571711")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13734f23-70b4-4ebc-a64e-0637ccf11757")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 -1.25)
+		(end -2.25 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "047c86cc-1434-47a4-badf-e1be91f8499d")
+	)
+	(fp_line
+		(start -1.4 -1.25)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abeb8dad-69f2-4960-a70c-096b3a7dfa20")
+	)
+	(fp_line
+		(start 1.4 -1.25)
+		(end 2.25 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eba7c2aa-b149-4974-aaf9-2dabaec31ac1")
+	)
+	(fp_line
+		(start 2.25 -1.25)
+		(end 2.25 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e03410d1-7c25-48f8-a07d-3a7acaac8dab")
+	)
+	(fp_line
+		(start -3.25 -3.648)
+		(end 3.25 -3.648)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8406a38b-5631-4864-a290-2ceb47e58758")
+	)
+	(fp_line
+		(start -3.25 2.882)
+		(end -3.25 -3.648)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d86b4ae-ec51-4666-a124-bdccc2e5aba1")
+	)
+	(fp_line
+		(start 3.25 -3.648)
+		(end 3.25 2.882)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7994d9b0-7153-449f-aba7-5357a987fad5")
+	)
+	(fp_line
+		(start 3.25 2.882)
+		(end -3.25 2.882)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cd9a0e1-44a7-4a13-add2-778086184f99")
+	)
+	(fp_line
+		(start -2.25 -1.25)
+		(end 2.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2610d13-55be-4125-80ce-439012bacd61")
+	)
+	(fp_line
+		(start -2.25 1.25)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62d5ab0f-335a-4709-8c0f-ed23af06f722")
+	)
+	(fp_line
+		(start 2.25 -1.25)
+		(end 2.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57541cbb-3e77-4488-bd70-38aefed87fa2")
+	)
+	(fp_line
+		(start 2.25 1.25)
+		(end -2.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "003f7e86-18ad-45e5-b518-86172775b641")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.383 0)
+		(layer "F.Fab")
+		(uuid "aa3cf286-b5e0-49be-b4c5-444919c3fdd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 1.017)
+		(size 0.58 1.73)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cdbaa21d-1ad6-47bd-9e54-43f4c3f07b7b")
+	)
+	(pad "2" smd rect
+		(at 0 1.132)
+		(size 0.76 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56929171-c027-4acf-af01-09888c416e26")
+	)
+	(pad "3" smd rect
+		(at 1.5 1.017)
+		(size 0.58 1.73)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2dba66fd-7ac0-47c7-a1fb-a093d8784b91")
+	)
+	(pad "4" smd rect
+		(at 0 -1.132)
+		(size 1.933 3.03)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb848d31-7793-498d-ac1a-a899f511b276")
+	)
+	(model "AP7375-33Y-13.stp"
+		(offset
+			(xyz 0.009999999626 0.6000000148 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
